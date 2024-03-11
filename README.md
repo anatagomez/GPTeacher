@@ -5,6 +5,17 @@ Group 7 - Final Project Report
 Members 
 鄭豐明 (R12922177)， 康甜甜（R12922176），黃保文（B10902077），郭雅美 (B09902085)，黃麗企 (B09902077)，郭俐欣 (B09902083)
 
+## Getting started
+```
+conda create -n gpteacher python=3.11
+conda activate gpteacher
+pip install -r requirements.txt
+```
+
+## Running the web app
+```
+streamlit run main.py
+```
 
 ## Purpose
 In the evolving landscape of education, there exists a growing demand for innovative and accessible learning solutions. Traditional classrooms, while invaluable, often face challenges in providing personalized attention to each student, especially in subjects like language learning.
