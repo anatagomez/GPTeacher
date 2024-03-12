@@ -6,6 +6,7 @@ Members
 鄭豐明 (R12922177)， 康甜甜（R12922176），黃保文（B10902077），郭雅美 (B09902085)，黃麗企 (B09902077)，郭俐欣 (B09902083)
 
 ## Getting started
+Requirements: streamlit, openai
 ```
 conda create -n gpteacher python=3.11
 conda activate gpteacher
