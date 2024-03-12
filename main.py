@@ -5,7 +5,7 @@ st.title("GPTeacher")
 st.write("Welcome! This is an English teaching assistant chatbot.")
 st.write("Feel free to ask questions about English grammar, vocabulary, writing tips, or any English-related topic.")
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="YOUR_API_KEY")
 
 if "openai_model" not in st.session_state:
     st.session_state["openai_model"] = "gpt-3.5-turbo"
